@@ -94,3 +94,24 @@
   border-radius: 10px;
   font-size: 15px;
 }
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-section img {
+  margin-top: 10px;
+  background: rgb(1, 1, 75);
+  border-radius: 80px;
+  height: 350px;
+}
+
+#about-content h2{
+  font-size: 40px;
+}
+
+#about-content h2 span{
+  color: rgb(127, 127, 228)
+}
