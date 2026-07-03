@@ -38,5 +38,59 @@
 
 .hero-section {
   height: 400px;
-  background: rgb(2, 2, 107);
+  background: rgb(1, 1, 75);
+  color: white;
+  border: none;
+}
+
+#hero-introduction {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero-introduction span {
+  color: rgb(127, 127, 228);
+}
+
+#hero-introduction h3 {
+  color: rgb(127, 127, 228);
+  margin-top: 10px;
+}
+
+#hero-introduction p {
+  color: white;
+  margin-top: 50px;
+}
+.introduction-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.introduction-links #btn1 {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: rgb(127, 127, 228);
+  padding: 13px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.introduction-links #btn2 {
+  text-decoration: none;
+  display: inline-block;
+  background: rgb(1, 1, 75);
+  color: white;
+  padding: 13px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 15px;
 }
