@@ -41,6 +41,7 @@
 
 nav ul li:hover {
   background: lightgray;
+  border-radius: 10px;
   /* border-radius: 15px; */
 }
 /* @keyframes nav-links-animation {
