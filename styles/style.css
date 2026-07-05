@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-.nav-links a:hover {
+.nav-links li:hover {
   background: white;
   border: 2px solid rgb(1, 1, 80);
   border-radius: 15px;
